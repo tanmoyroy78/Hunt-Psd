@@ -6,9 +6,6 @@
 ul, li{
     list-style: none;
 }
-img{
-    /* width: 100%; */
-}
 a{
     text-decoration: none;
     display: inline-block;
@@ -157,6 +154,9 @@ h1, h2, h3, h4, h5, h6{
 }
 /* banner ends================= */
 /* =========about part start======== */
+#about .about-img img{
+    width: 100%;
+}
 #about .about-text{
     background-color: #eee;
     padding: 40px 30px;
@@ -246,22 +246,22 @@ h1, h2, h3, h4, h5, h6{
 
 #about .about-text:nth-child(2) p::after{
   
-    top: 113%;
+    top: 111%;
     left: 46%;
 }
 #about .about-text:nth-child(4) p::after{
   
     top: 51%;
-    left: 109%;
+    left: 110%;
 }
 #about .about-text:nth-child(6) p::after{
   
     top: 51%;
-    left: -13%;
+    left: -15%;
 }
 #about .about-text:nth-child(7) p::after{
   
-    top: -21%;
+    top: -20%;
     left: 49%;
 }
 #about .about-img{
